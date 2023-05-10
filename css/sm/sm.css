@@ -1,0 +1,625 @@
+div.wrapper > div.menu {
+  width: 100%;
+  background-color: #454545; }
+  div.wrapper > div.menu > nav {
+    width: inherit; }
+    div.wrapper > div.menu > nav > ul {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      margin: 0 auto; }
+      div.wrapper > div.menu > nav > ul > li {
+        width: auto;
+        height: 40px;
+        text-align: center;
+        transition: 300ms; }
+        div.wrapper > div.menu > nav > ul > li:hover > div.submenu {
+          display: block; }
+        div.wrapper > div.menu > nav > ul > li > div.submenu {
+          width: 100%;
+          height: 100vh;
+          background-color: #2b2b2b;
+          position: absolute;
+          left: 0;
+          display: none;
+          text-align: left;
+          padding: 20px 20px; }
+          div.wrapper > div.menu > nav > ul > li > div.submenu > span {
+            font-family: apple;
+            font-size: 12px;
+            display: block;
+            font-weight: bold;
+            color: whitesmoke; }
+          div.wrapper > div.menu > nav > ul > li > div.submenu > span.two {
+            display: inline-block;
+            font-family: apple;
+            color: #6e6e72;
+            font-size: 10px;
+            padding-top: 20px; }
+          div.wrapper > div.menu > nav > ul > li > div.submenu > a {
+            width: auto;
+            padding-top: 20px;
+            color: #0577e9; }
+            div.wrapper > div.menu > nav > ul > li > div.submenu > a > span {
+              font-family: apple;
+              color: #6e6e72;
+              display: inline-block;
+              margin-top: 15px;
+              margin-bottom: 20px; }
+          div.wrapper > div.menu > nav > ul > li > div.submenu > div.search {
+            width: 80%;
+            height: auto;
+            margin-bottom: 40px; }
+            div.wrapper > div.menu > nav > ul > li > div.submenu > div.search > i {
+              font-size: 14px;
+              color: #454545; }
+            div.wrapper > div.menu > nav > ul > li > div.submenu > div.search > input {
+              width: 80%;
+              height: auto;
+              font-family: apple;
+              font-size: 16px;
+              color: #454545;
+              background-color: #2b2b2b;
+              border: none;
+              padding-left: 10px;
+              display: inline-block; }
+          div.wrapper > div.menu > nav > ul > li > div.submenu > div.more {
+            width: auto;
+            height: auto;
+            display: inline-block;
+            vertical-align: text-top;
+            text-align: left;
+            margin-left: 10px; }
+            div.wrapper > div.menu > nav > ul > li > div.submenu > div.more > h4 {
+              display: block;
+              color: #b7b7b7;
+              font-family: apple;
+              margin-bottom: 10px;
+              font-size: 10px;
+              text-transform: capitalize; }
+            div.wrapper > div.menu > nav > ul > li > div.submenu > div.more > ul {
+              width: 100%;
+              height: auto;
+              list-style: none;
+              display: block;
+              margin-right: 20px; }
+              div.wrapper > div.menu > nav > ul > li > div.submenu > div.more > ul > li {
+                width: 100%;
+                height: auto;
+                text-align: left;
+                padding: 8px 0; }
+                div.wrapper > div.menu > nav > ul > li > div.submenu > div.more > ul > li > a {
+                  width: auto;
+                  text-decoration: none;
+                  color: whitesmoke;
+                  font-family: apple;
+                  font-size: 8px;
+                  text-transform: capitalize; }
+          div.wrapper > div.menu > nav > ul > li > div.submenu > div.shop {
+            width: auto;
+            height: auto;
+            display: inline-block;
+            vertical-align: text-top;
+            text-align: left;
+            margin-left: 10px; }
+            div.wrapper > div.menu > nav > ul > li > div.submenu > div.shop > h4 {
+              display: block;
+              color: #b7b7b7;
+              font-family: apple;
+              margin-bottom: 10px;
+              font-size: 10px;
+              text-transform: capitalize; }
+            div.wrapper > div.menu > nav > ul > li > div.submenu > div.shop > ul {
+              width: 100%;
+              height: auto;
+              list-style: none;
+              display: block;
+              margin-right: 30px; }
+              div.wrapper > div.menu > nav > ul > li > div.submenu > div.shop > ul > li {
+                width: 100%;
+                height: auto;
+                text-align: left;
+                padding: 8px 0; }
+                div.wrapper > div.menu > nav > ul > li > div.submenu > div.shop > ul > li > a {
+                  width: auto;
+                  text-decoration: none;
+                  color: whitesmoke;
+                  font-family: apple;
+                  font-size: 10px;
+                  text-transform: capitalize; }
+          div.wrapper > div.menu > nav > ul > li > div.submenu > div {
+            width: auto;
+            height: auto;
+            display: inline-block;
+            vertical-align: text-top;
+            text-align: left; }
+            div.wrapper > div.menu > nav > ul > li > div.submenu > div > p {
+              width: 100%;
+              font-family: apple;
+              color: whitesmoke;
+              font-size: 10px;
+              text-transform: capitalize;
+              margin-top: 12px; }
+            div.wrapper > div.menu > nav > ul > li > div.submenu > div > h4 {
+              display: block;
+              color: #b7b7b7;
+              font-family: apple;
+              margin-bottom: 10px;
+              font-size: 10px;
+              text-transform: capitalize; }
+            div.wrapper > div.menu > nav > ul > li > div.submenu > div > ul {
+              width: 100%;
+              height: auto;
+              list-style: none;
+              display: block;
+              margin-right: 40px; }
+              div.wrapper > div.menu > nav > ul > li > div.submenu > div > ul > li {
+                width: 100%;
+                height: auto;
+                text-align: left;
+                padding: 5px 0; }
+                div.wrapper > div.menu > nav > ul > li > div.submenu > div > ul > li > a {
+                  width: auto;
+                  text-decoration: none;
+                  color: whitesmoke;
+                  font-family: apple;
+                  font-weight: bold;
+                  font-size: 12px;
+                  text-transform: capitalize; }
+                  div.wrapper > div.menu > nav > ul > li > div.submenu > div > ul > li > a > i {
+                    padding-right: 10px;
+                    color: #6e6e72;
+                    font-size: 12px;
+                    font-weight: bold; }
+        div.wrapper > div.menu > nav > ul > li > a {
+          width: auto;
+          color: #b7b7b7;
+          text-decoration: none;
+          padding: 0 5px;
+          line-height: 40px;
+          font-family: apple;
+          font-size: 8px;
+          text-transform: capitalize;
+          margin: 0 auto; }
+          div.wrapper > div.menu > nav > ul > li > a > i {
+            color: #b7b7b7;
+            font-size: 12px; }
+
+div.wrapper > div.text {
+  width: 60%;
+  height: 45px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 45px; }
+  div.wrapper > div.text > span {
+    height: inherit;
+    display: inline-block;
+    font-family: apple;
+    font-size: 12px;
+    color: #454545; }
+  div.wrapper > div.text > a {
+    font-family: apple;
+    color: #3b89d8;
+    font-size: 12px;
+    display: inline-block; }
+
+div.wrapper > div.progress-first {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../images/first-pic.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px; }
+  div.wrapper > div.progress-first > div.slogan {
+    width: 30%;
+    text-align: center; }
+    div.wrapper > div.progress-first > div.slogan > h3 {
+      display: block;
+      font-family: apple;
+      font-size: 40px;
+      color: whitesmoke; }
+    div.wrapper > div.progress-first > div.slogan > span {
+      display: block;
+      font-family: apple;
+      font-size: 24px;
+      color: whitesmoke;
+      margin-top: 10px; }
+    div.wrapper > div.progress-first > div.slogan > a {
+      display: inline-block;
+      font-family: apple;
+      font-size: 18px;
+      color: #076fd7;
+      text-decoration: none;
+      padding: 0 10px;
+      margin-top: 10px; }
+      div.wrapper > div.progress-first > div.slogan > a > i {
+        color: #076fd7;
+        font-size: 14px; }
+
+div.wrapper > div.progress-second {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../images/second-pic.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px; }
+  div.wrapper > div.progress-second > div.slogan {
+    width: 30%;
+    text-align: center; }
+    div.wrapper > div.progress-second > div.slogan > h3 {
+      display: block;
+      font-family: apple;
+      font-size: 40px;
+      color: black; }
+    div.wrapper > div.progress-second > div.slogan > span {
+      display: block;
+      font-family: apple;
+      font-size: 24px;
+      color: black;
+      margin-top: 10px; }
+    div.wrapper > div.progress-second > div.slogan > a {
+      display: inline-block;
+      font-family: apple;
+      font-size: 18px;
+      color: #076fd7;
+      text-decoration: none;
+      padding: 0 10px;
+      margin-top: 10px; }
+      div.wrapper > div.progress-second > div.slogan > a > i {
+        color: #076fd7;
+        font-size: 14px; }
+
+div.wrapper > div.progress-third {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../images/third-pic.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px; }
+  div.wrapper > div.progress-third > div.slogan {
+    width: 30%;
+    text-align: center; }
+    div.wrapper > div.progress-third > div.slogan > h3 {
+      display: block;
+      font-family: apple;
+      font-size: 40px;
+      color: whitesmoke; }
+    div.wrapper > div.progress-third > div.slogan > span {
+      display: block;
+      font-family: apple;
+      font-size: 24px;
+      color: whitesmoke;
+      margin-top: 10px; }
+    div.wrapper > div.progress-third > div.slogan > p {
+      display: block;
+      font-family: apple;
+      font-size: 24px;
+      color: #c51c1c;
+      margin-top: 10px; }
+    div.wrapper > div.progress-third > div.slogan > a {
+      display: inline-block;
+      font-family: apple;
+      font-size: 18px;
+      color: #076fd7;
+      text-decoration: none;
+      padding: 0 10px;
+      margin-top: 10px; }
+      div.wrapper > div.progress-third > div.slogan > a > i {
+        color: #076fd7;
+        font-size: 14px; }
+
+div.wrapper > div.content-first {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  margin-top: 10px; }
+  div.wrapper > div.content-first > div.left {
+    width: 48%;
+    height: 70vh;
+    background-image: url(../../images/content-first-left.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; }
+    div.wrapper > div.content-first > div.left > h3 {
+      display: block;
+      font-family: apple;
+      font-size: 30px;
+      color: black; }
+    div.wrapper > div.content-first > div.left > span {
+      display: block;
+      font-family: apple;
+      font-size: 20px;
+      color: #2b2b2b;
+      margin-top: 10px; }
+    div.wrapper > div.content-first > div.left > a {
+      display: inline-block;
+      font-family: apple;
+      font-size: 14px;
+      color: #076fd7;
+      text-decoration: none;
+      padding: 0 10px;
+      margin-top: 10px; }
+      div.wrapper > div.content-first > div.left > a > i {
+        color: #076fd7;
+        font-size: 12px; }
+  div.wrapper > div.content-first > div.right {
+    width: 48%;
+    height: 70vh;
+    background-image: url(../../images/content-first-right.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: start; }
+    div.wrapper > div.content-first > div.right > h3 {
+      display: block;
+      font-family: apple;
+      font-size: 30px;
+      color: whitesmoke;
+      padding-top: 300px; }
+    div.wrapper > div.content-first > div.right > span {
+      display: block;
+      font-family: apple;
+      font-size: 20px;
+      color: whitesmoke; }
+    div.wrapper > div.content-first > div.right > a {
+      display: inline-block;
+      font-family: apple;
+      font-size: 16px;
+      color: #076fd7;
+      text-decoration: none;
+      padding: 0 10px;
+      margin-top: 10px; }
+      div.wrapper > div.content-first > div.right > a > i {
+        color: #076fd7;
+        font-size: 14px; }
+
+div.wrapper > div.content-second {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  margin-top: 10px; }
+  div.wrapper > div.content-second > div.left {
+    width: 48%;
+    height: 70vh;
+    background-image: url(../../images/content-second-left.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; }
+    div.wrapper > div.content-second > div.left > h3 {
+      display: block;
+      font-family: apple;
+      font-size: 24px;
+      font-weight: bold;
+      color: black;
+      margin-top: 10px; }
+    div.wrapper > div.content-second > div.left > span {
+      display: block;
+      font-family: apple;
+      font-size: 18px;
+      color: 3 #2b2b2b;
+      margin-top: 10px; }
+    div.wrapper > div.content-second > div.left > a {
+      display: inline-block;
+      font-family: apple;
+      font-size: 14px;
+      color: #076fd7;
+      text-decoration: none;
+      padding: 0 10px;
+      margin-top: 10px; }
+      div.wrapper > div.content-second > div.left > a > i {
+        color: #076fd7;
+        font-size: 12px; }
+  div.wrapper > div.content-second > div.right {
+    width: 48%;
+    height: 70vh;
+    background-image: url(../../images/content-second-right.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: start; }
+    div.wrapper > div.content-second > div.right > h3 {
+      margin-top: 10px;
+      display: block;
+      font-family: apple;
+      font-size: 25px;
+      color: whitesmoke; }
+    div.wrapper > div.content-second > div.right > span {
+      display: block;
+      font-family: apple;
+      font-size: 18px;
+      color: whitesmoke; }
+    div.wrapper > div.content-second > div.right > a {
+      display: inline-block;
+      font-family: apple;
+      font-size: 14px;
+      color: #076fd7;
+      text-decoration: none;
+      padding: 0 10px;
+      margin-top: 10px; }
+      div.wrapper > div.content-second > div.right > a > i {
+        color: #076fd7;
+        font-size: 12px; }
+
+div.wrapper > div.content-third {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  margin-top: 10px; }
+  div.wrapper > div.content-third > div.left {
+    width: 48%;
+    height: 70vh;
+    background-image: url(../../images/content-third-left.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; }
+    div.wrapper > div.content-third > div.left > h3 {
+      display: block;
+      font-family: apple;
+      font-size: 25px;
+      color: black;
+      margin-top: 10px; }
+    div.wrapper > div.content-third > div.left > span {
+      display: block;
+      font-family: apple;
+      font-size: 16px;
+      color: #2b2b2b;
+      margin-top: 10px; }
+    div.wrapper > div.content-third > div.left > a {
+      display: inline-block;
+      font-family: apple;
+      font-size: 14px;
+      color: #076fd7;
+      text-decoration: none;
+      padding: 0 10px;
+      margin-top: 10px; }
+      div.wrapper > div.content-third > div.left > a > i {
+        color: #076fd7;
+        font-size: 12px; }
+  div.wrapper > div.content-third > div.right {
+    width: 48%;
+    height: 70vh;
+    background-image: url(../../images/content-third-right.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: start; }
+    div.wrapper > div.content-third > div.right > h3 {
+      display: block;
+      font-family: apple;
+      font-size: 30px;
+      color: black;
+      margin-top: 10px; }
+    div.wrapper > div.content-third > div.right > span {
+      display: block;
+      font-family: apple;
+      font-size: 16px;
+      color: #2b2b2b; }
+    div.wrapper > div.content-third > div.right > a {
+      display: inline-block;
+      font-family: apple;
+      font-size: 14px;
+      color: #076fd7;
+      text-decoration: none;
+      padding: 0 10px;
+      margin-top: 10px; }
+      div.wrapper > div.content-third > div.right > a > i {
+        color: #076fd7;
+        font-size: 12px; }
+
+.swiper {
+  width: 98%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color); }
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg); }
+
+div.wrapper > footer {
+  width: 100%;
+  background-color: #f5f5f7;
+  margin: 10px auto; }
+  div.wrapper > footer > div.footer {
+    width: 70%;
+    margin: 0 auto; }
+    div.wrapper > footer > div.footer > div.information {
+      width: 100%;
+      text-align: left;
+      padding: 20px 0;
+      border-bottom: 1px solid #959599; }
+      div.wrapper > footer > div.footer > div.information > p {
+        margin-top: 10px;
+        color: #959599;
+        font-size: 12px;
+        font-family: apple; }
+    div.wrapper > footer > div.footer > nav {
+      margin-top: 15px;
+      width: 100%;
+      height: 450px; }
+      div.wrapper > footer > div.footer > nav > ul {
+        width: 100%;
+        height: 450px;
+        list-style-type: none;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: start; }
+        div.wrapper > footer > div.footer > nav > ul > li {
+          margin-bottom: 15px; }
+          div.wrapper > footer > div.footer > nav > ul > li > a {
+            display: block;
+            text-decoration: none;
+            font-family: apple;
+            font-size: 13px;
+            color: black; }
+          div.wrapper > footer > div.footer > nav > ul > li > ul {
+            list-style-type: none; }
+            div.wrapper > footer > div.footer > nav > ul > li > ul > li > a {
+              display: block;
+              text-decoration: none;
+              font-family: apple;
+              font-size: 12px;
+              color: #757578;
+              padding-top: 10px; }

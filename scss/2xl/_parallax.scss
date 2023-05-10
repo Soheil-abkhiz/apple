@@ -1,0 +1,396 @@
+div.wrapper {
+    > div.text {
+      width: 60%;
+      height: 45px;
+      text-align: center;
+      margin: 0 auto;
+      line-height: 45px;
+      > span {
+        height: inherit;
+        display: inline-block;
+        font-family: apple;
+        font-size: 12px;
+        color: #454545;
+      }
+      > a {
+        font-family: apple;
+        color: #3b89d8;
+        font-size: 12px;
+        display: inline-block;
+      }
+    }
+    > div.progress-first {
+      width: 100%;
+      height: 100vh;
+      background-image: url(../../images/first-pic.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 50px;
+      > div.slogan {
+        width: 30%;
+        text-align: center;
+        > h3 {
+          display: block;
+          font-family: apple;
+          font-size: 40px;
+          color: whitesmoke;
+        }
+        > span {
+          display: block;
+          font-family: apple;
+          font-size: 24px;
+          color: whitesmoke;
+          margin-top: 10px;
+        }
+        > a {
+          display: inline-block;
+          font-family: apple;
+          font-size: 18px;
+          color: #076fd7;
+          text-decoration: none;
+          padding: 0 10px;
+          margin-top: 10px;
+          > i {
+            color: #076fd7;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    > div.progress-second {
+      width: 100%;
+      height: 100vh;
+      background-image: url(../../images/second-pic.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 50px;
+      > div.slogan {
+        width: 30%;
+        text-align: center;
+        > h3 {
+          display: block;
+          font-family: apple;
+          font-size: 40px;
+          color: black;
+        }
+        > span {
+          display: block;
+          font-family: apple;
+          font-size: 24px;
+          color: black;
+          margin-top: 10px;
+        }
+        > a {
+          display: inline-block;
+          font-family: apple;
+          font-size: 18px;
+          color: #076fd7;
+          text-decoration: none;
+          padding: 0 10px;
+          margin-top: 10px;
+          > i {
+            color: #076fd7;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    > div.progress-third {
+      width: 100%;
+      height: 100vh;
+      background-image: url(../../images/third-pic.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 50px;
+      > div.slogan {
+        width: 30%;
+        text-align: center;
+        > h3 {
+          display: block;
+          font-family: apple;
+          font-size: 40px;
+          color: whitesmoke;
+        }
+        > span {
+          display: block;
+          font-family: apple;
+          font-size: 24px;
+          color: whitesmoke;
+          margin-top: 10px;
+        }
+        > p {
+          display: block;
+          font-family: apple;
+          font-size: 24px;
+          color: rgb(197, 28, 28);
+          margin-top: 10px;
+        }
+        > a {
+          display: inline-block;
+          font-family: apple;
+          font-size: 18px;
+          color: #076fd7;
+          text-decoration: none;
+          padding: 0 10px;
+          margin-top: 10px;
+          > i {
+            color: #076fd7;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    > div.content-first {
+      width: 100%;
+      display: flex;
+      gap: 10px;
+      justify-content: space-evenly;
+      flex-flow: row wrap;
+      margin-top: 10px;
+      > div.left {
+        width: 48%;
+        height: 70vh;
+        background-image: url(../../images/content-first-left.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        > h3 {
+          display: block;
+          font-family: apple;
+          font-size: 30px;
+          color: black;
+        }
+        > span {
+          display: block;
+          font-family: apple;
+          font-size: 20px;
+          color: #2b2b2b;
+          margin-top: 10px;
+        }
+        > a {
+          display: inline-block;
+          font-family: apple;
+          font-size: 14px;
+          color: #076fd7;
+          text-decoration: none;
+          padding: 0 10px;
+          margin-top: 10px;
+          > i {
+            color: #076fd7;
+            font-size: 12px;
+          }
+        }
+      }
+      > div.right {
+        width: 48%;
+        height: 70vh;
+        background-image: url(../../images/content-first-right.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        margin-bottom: start;
+        > h3 {
+          display: block;
+          font-family: apple;
+          font-size: 30px;
+          color: whitesmoke;
+          padding-top: 300px;
+        }
+        > span {
+          display: block;
+          font-family: apple;
+          font-size: 20px;
+          color: whitesmoke;
+        }
+        > a {
+          display: inline-block;
+          font-family: apple;
+          font-size: 16px;
+          color: #076fd7;
+          text-decoration: none;
+          padding: 0 10px;
+          margin-top: 10px;
+          > i {
+            color: #076fd7;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    > div.content-second {
+      width: 100%;
+      display: flex;
+      gap: 10px;
+      justify-content: space-evenly;
+      flex-flow: row wrap;
+      margin-top: 10px;
+      > div.left {
+        width: 48%;
+        height: 70vh;
+        background-image: url(../../images/content-second-left.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        > h3 {
+          display: block;
+          font-family: apple;
+          font-size: 24px;
+          font-weight: bold;
+          color: black;
+          margin-top: 10px;
+        }
+        > span {
+          display: block;
+          font-family: apple;
+          font-size: 18px;
+          color: 3#2b2b2b;
+          margin-top: 10px;
+        }
+        > a {
+          display: inline-block;
+          font-family: apple;
+          font-size: 14px;
+          color: #076fd7;
+          text-decoration: none;
+          padding: 0 10px;
+          margin-top: 10px;
+          > i {
+            color: #076fd7;
+            font-size: 12px;
+          }
+        }
+      }
+      > div.right {
+        width: 48%;
+        height: 70vh;
+        background-image: url(../../images/content-second-right.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        margin-bottom: start;
+        > h3 {
+          margin-top: 10px;
+          display: block;
+          font-family: apple;
+          font-size: 25px;
+          color: whitesmoke;
+        }
+        > span {
+          display: block;
+          font-family: apple;
+          font-size: 18px;
+          color: whitesmoke;
+        }
+        > a {
+          display: inline-block;
+          font-family: apple;
+          font-size: 14px;
+          color: #076fd7;
+          text-decoration: none;
+          padding: 0 10px;
+          margin-top: 10px;
+          > i {
+            color: #076fd7;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    > div.content-third {
+      width: 100%;
+      display: flex;
+      gap: 10px;
+      justify-content: space-evenly;
+      flex-flow: row wrap;
+      margin-top: 10px;
+      > div.left {
+        width: 48%;
+        height: 70vh;
+        background-image: url(../../images/content-third-left.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        > h3 {
+          display: block;
+          font-family: apple;
+          font-size: 25px;
+          color: black;
+          margin-top: 10px;
+        }
+        > span {
+          display: block;
+          font-family: apple;
+          font-size: 16px;
+          color: #2b2b2b;
+          margin-top: 10px;
+        }
+        > a {
+          display: inline-block;
+          font-family: apple;
+          font-size: 14px;
+          color: #076fd7;
+          text-decoration: none;
+          padding: 0 10px;
+          margin-top: 10px;
+          > i {
+            color: #076fd7;
+            font-size: 12px;
+          }
+        }
+      }
+      > div.right {
+        width: 48%;
+        height: 70vh;
+        background-image: url(../../images/content-third-right.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        margin-bottom: start;
+        > h3 {
+          display: block;
+          font-family: apple;
+          font-size: 30px;
+          color: black;
+          margin-top: 10px;
+        }
+        > span {
+          display: block;
+          font-family: apple;
+          font-size: 16px;
+          color: #2b2b2b;
+        }
+        > a {
+          display: inline-block;
+          font-family: apple;
+          font-size: 14px;
+          color: #076fd7;
+          text-decoration: none;
+          padding: 0 10px;
+          margin-top: 10px;
+          > i {
+            color: #076fd7;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  
